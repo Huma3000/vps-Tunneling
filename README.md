@@ -19,6 +19,7 @@ S-UI 是目前比较流行的 Sing-box 可视化管理面板，支持 VMess、VL
 ### 一.准备 VPS 环境（必须 root 执行）一键更新 
 
 ```bash
+sudo -i
 # 更新系统并安装必要工具（Ubuntu/Debian）
 apt update && apt upgrade -y
 apt install -y curl wget git sudo
