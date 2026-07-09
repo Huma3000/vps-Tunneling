@@ -30,6 +30,11 @@ apt install -y curl wget git sudo
 ```bash
 VERSION=1.2.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
 ```
+一键安装 3x-UI（最推荐方式）
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
+
 
 
 ### 三.访问面板并登录浏览器打开：
