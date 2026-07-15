@@ -32,7 +32,7 @@ VERSION=1.2.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui
 ```
 一键安装 3x-UI（最推荐方式）
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+搭建后如果vless节点无法使用，请尝试更换目标域名(SNI)或者浏览器指纹(fingerprint)
 ```
 
 
