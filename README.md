@@ -79,12 +79,7 @@ https://tcp.ping.pe/
 
 ```bash
 ======================================
- </style>
-<div id="container">
-  <div id="buttonBar">
-    <button id="refreshBtn">换一批</button>
-    <button id="copyBtn">复制</button>
-  </div>
+ 
   <textarea id="commandBox" readonly></textarea>
 </div>
 
@@ -122,12 +117,14 @@ https://tcp.ping.pe/
     $("#copyBtn").on("click", copyToClipboard);
 ```
 ## 推荐代理工具
-Windows/Mac（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/7.12.7
-Android（NekoBox）：https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/tag/1.3.9
-IOS/Mac（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
+
+
 各平台客户端
+
 Windows（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/6.23
+
 Android（v2rayNG）：https://github.com/2dust/v2rayNG/releases/tag/1.8.5
+
 IOS（shadowrocket）：https://apps.apple.com/app/shadowrocket/id932747118
 
 
