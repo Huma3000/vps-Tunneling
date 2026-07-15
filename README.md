@@ -79,7 +79,13 @@ https://tcp.ping.pe/
 
 ```bash
 ======================================
-<textarea id="commandBox" readonly=""></textarea>
+<div id="container">
+  <div id="buttonBar">
+    <button id="refreshBtn">换一批</button>
+    <button id="copyBtn">复制</button>
+  </div>
+  <textarea id="commandBox" readonly=""></textarea>
+</div>
 ```
 ## 推荐代理工具
 Windows/Mac（v2rayN）：https://github.com/2dust/v2rayN/releases/tag/7.12.7
