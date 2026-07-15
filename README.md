@@ -68,11 +68,15 @@ Reality寻找适合的目标网站
 asn=="25820" && country=="US" && port=="443" && cert!="Let's Encrypt" && cert.issuer!="ZeroSSL" && status_code="200"
 
 查询IP信息：https://ipinfo.io
+
 ip欺诈值查询：https://scamalytics.com/ip
+
 国家字母代码：https://zh.wikipedia.org/wiki/ISO_3166-1
+
 搜索任意国家：https://www.shodan.io/search/facet?facet=isp&query=http.html%3Aassets%2Fqs%2Fqs.min.js+country%3A
-检测端口是否被封
-https://tcp.ping.pe/
+
+检测端口是否被封 https://tcp.ping.pe/
+
 国家公共DNS：https://public-dns.info/#countries
 
 #### 检测Reality目标域名命令
@@ -80,41 +84,7 @@ https://tcp.ping.pe/
 ```bash
 ======================================
  
-  <textarea id="commandBox" readonly></textarea>
-</div>
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  const domains = ["amd.com", "aws.com", "c.6sc.co", "j.6sc.co", "b.6sc.co", "intel.com", "r.bing.com", "th.bing.com", "www.amd.com", "www.aws.com", "www.xbox.com", "www.sony.com", "rum.hlx.page", "www.bing.com", "www.wowt.com", "www.intel.com", "www.tesla.com", "www.xilinx.com", "www.oracle.com", "c.marsflag.com", "www.nvidia.com", "snap.licdn.com", "aws.amazon.com", "drivers.amd.com", "cdn.bizibly.com", "s.go-mpulse.net", "tags.tiqcdn.com", "cdn.bizible.com", "cdn.userway.org", "download.amd.com", "d1.awsstatic.com", "s0.awsstatic.com", "mscom.demdex.net", "a0.awsstatic.com", "apps.mzstatic.com", "sisu.xboxlive.com", "s.mp.marsflag.com", "images.nvidia.com", "vs.aws.amazon.com", "c.s-microsoft.com", "beacon.gtv-pub.com", "ts4.tc.mm.bing.net", "ts3.tc.mm.bing.net", "d2c.aws.amazon.com", "ts1.tc.mm.bing.net", "ce.mf.marsflag.com", "d0.m.awsstatic.com", "t0.m.awsstatic.com", "ts2.tc.mm.bing.net",  "tag.demandbase.com", "assets-www.xbox.com", "logx.optimizely.com", "azure.microsoft.com", "aadcdn.msftauth.net", "d.oracleinfinity.io", "assets.adobedtm.com", "lpcdn.lpsnmedia.net", "res-1.cdn.office.net", "is1-ssl.mzstatic.com", "electronics.sony.com", "acctcdn.msftauth.net", "cdnssl.clicktale.net", "catalog.gamepass.com", "consent.trustarc.com", "gsp-ssl.ls.apple.com", "munchkin.marketo.net", "s.company-target.com", "cdn77.api.userway.org", "cua-chat-ui.tesla.com", "assets-xbxweb.xbox.com", "ds-aksb-a.akamaihd.net", "static.cloud.coveo.com", "api.company-target.com", "devblogs.microsoft.com", "s7mbrstream.scene7.com", "fpinit.itunes.apple.com", "digitalassets.tesla.com", "d.impactradius-event.com", "downloadmirror.intel.com", "iosapps.itunes.apple.com", "se-edge.itunes.apple.com", "publisher.liveperson.net", "tag-logger.demandbase.com", "services.digitaleast.mobi", "configuration.ls.apple.com", "gray-wowt-prod.gtv-cdn.com", "visualstudio.microsoft.com", "prod.log.shortbread.aws.dev", "amp-api-edge.apps.apple.com", "store-images.s-microsoft.com", "cdn-dynmedia-1.microsoft.com", "github.gallerycdn.vsassets.io", "prod.pa.cdn.uis.awsstatic.com", "a.b.cdn.console.awsstatic.com", "d3agakyjgjv5i8.cloudfront.net", "vscjava.gallerycdn.vsassets.io", "location-services-prd.tesla.com", "ms-vscode.gallerycdn.vsassets.io", "ms-python.gallerycdn.vsassets.io", "gray-config-prod.api.arc-cdn.net", "i7158c100-ds-aksb-a.akamaihd.net", "downloaddispatch.itunes.apple.com", "res.public.onecdn.static.microsoft", "gray.video-player.arcpublishing.com", "gray-config-prod.api.cdn.arcpublishing.com", "img-prod-cms-rt-microsoft-com.akamaized.net", "prod.us-east-1.ui.gcr-chat.marketing.aws.dev"];
-
-  function getRandomDomains(array, count) {
-    const shuffled = [...array].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, count);
-  }
-
-  function generateShellCommand(selectedDomains) {
-    const domainStr = selectedDomains.join(" ");
-    return `for d in ${domainStr} ; do t1=$(date +%s%3N); timeout 1 openssl s_client -connect $d:443 -servername $d </dev/null &>/dev/null && t2=$(date +%s%3N) && echo "$d: $((t2 - t1)) ms" || echo "$d: timeout"; done`;
-  }
-
-  function updateCommand() {
-    const selected = getRandomDomains(domains, 10);
-    const command = generateShellCommand(selected);
-    $("#commandBox").val(command);
-  }
-
-  function copyToClipboard() {
-    const textArea = document.getElementById("commandBox");
-    textArea.select();
-    textArea.setSelectionRange(0, 99999); 
-    document.execCommand("copy");
-  }
-
-  $(document).ready(function () {
-    updateCommand();
-
-    $("#refreshBtn").on("click", updateCommand);
-
-    $("#copyBtn").on("click", copyToClipboard);
+  <textarea id="commandBox" readonly="" style=""></textarea>
 ```
 ## 推荐代理工具
 
