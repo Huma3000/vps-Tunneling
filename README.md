@@ -67,9 +67,9 @@ Reality寻找适合的目标网站
 
 asn=="25820" && country=="US" && port=="443" && cert!="Let's Encrypt" && cert.issuer!="ZeroSSL" && status_code="200"
 
-查询IP信息：https://ipinfo.io
+查询IP信息：https://ipinfo.io  
 
-ip欺诈值查询：https://scamalytics.com/ip
+纯净度 ip欺诈值查询：https://scamalytics.com/ip
 
 国家字母代码：https://zh.wikipedia.org/wiki/ISO_3166-1
 
@@ -78,6 +78,21 @@ ip欺诈值查询：https://scamalytics.com/ip
 检测端口是否被封 https://tcp.ping.pe/
 
 国家公共DNS：https://public-dns.info/#countries
+
+本机 IP 查询  https://ip.skk.moe/   https://ipleak.net/  https://ping0.cc/
+
+区域检测   https://bgp.he.net/
+
+指纹检测   https://whoer.net/zh#   https://www.yalala.com/
+
+WebRTC IP出口测试    https://ippure.com/Browser-WebRTC-Leak-Detect
+
+手机号码检测   https://www.phonevalidator.com/index.aspx
+
+ip质量检测   https://ipjiance.net/
+
+
+
 
 #### 检测Reality目标域名命令
 
