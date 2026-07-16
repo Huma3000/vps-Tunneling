@@ -32,10 +32,17 @@ VERSION=1.2.2 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui
 ```
 一键安装 3x-UI（最推荐方式）
 ```bash
-搭建后如果vless节点无法使用，请尝试更换目标域名(SNI)或者浏览器指纹(fingerprint)
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 
 
+#### 检测Reality目标域名命令
+
+```bash
+======================================
+ 
+ 搭建后如果vless节点无法使用，请尝试更换目标域名(SNI)或者浏览器指纹(fingerprint)
+```
 
 ### 三.访问面板并登录浏览器打开：
 http://你的VPS_IP:你设置的端口/你设置的路径
@@ -93,14 +100,6 @@ ip质量检测   https://ipjiance.net/
 
 
 
-
-#### 检测Reality目标域名命令
-
-```bash
-======================================
- 
-  <textarea id="commandBox" readonly="" style=""></textarea>
-```
 ## 推荐代理工具
 
 
